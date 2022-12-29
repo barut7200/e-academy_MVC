@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="eacademiModelStoreContainer" CdmEntityContainer="eacademiEntities">
+    <EntitySetMapping Name="dersler">
+      <EntityTypeMapping TypeName="eacademiModel.dersler">
+        <MappingFragment StoreEntitySet="dersler">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="foto" ColumnName="foto" />
+          <ScalarProperty Name="baslik" ColumnName="baslik" />
+          <ScalarProperty Name="icerik" ColumnName="icerik" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="hakkinda">
+      <EntityTypeMapping TypeName="eacademiModel.hakkinda">
+        <MappingFragment StoreEntitySet="hakkinda">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="foto" ColumnName="foto" />
+          <ScalarProperty Name="baslik" ColumnName="baslik" />
+          <ScalarProperty Name="icerik" ColumnName="icerik" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,22 @@
+﻿@model WebApplication1.Models.hakkinda
+@{
+    ViewBag.Title = "Hakkında";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+<!-- about section start -->
+<div class="about_section layout_padding margin_top0">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="about_taital">Hakkımızda</div>
+                <p class="about_text">@Model.icerik</p>
+                <div class="read_bt"><a href="#">Devamını oku</a></div>
+            </div>
+            <div class="col-md-6">
+                <div class="about_img"><img src="~/Content/images/@Model.foto"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- about section end -->
